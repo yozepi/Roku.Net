@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RokuRemote.Net", "Roku.Net\RokuRemote.Net.csproj", "{44298D5F-0DBF-48E5-84D0-6BC2F5276F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RokuRemote.Net.ConsoleTests.NetFramework", "Roku.Net.ConsoleTests.NetFramework\RokuRemote.Net.ConsoleTests.NetFramework.csproj", "{F5B284C3-F604-4D0F-91ED-ACE7690F56EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RokuRemote.Net.Tests.Unit", "Roku.Net.Tests.Unit\RokuRemote.Net.Tests.Unit.csproj", "{030F69DD-03EF-4EFE-855F-93C32DEDF83B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44298D5F-0DBF-48E5-84D0-6BC2F5276F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44298D5F-0DBF-48E5-84D0-6BC2F5276F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44298D5F-0DBF-48E5-84D0-6BC2F5276F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44298D5F-0DBF-48E5-84D0-6BC2F5276F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B284C3-F604-4D0F-91ED-ACE7690F56EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B284C3-F604-4D0F-91ED-ACE7690F56EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B284C3-F604-4D0F-91ED-ACE7690F56EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B284C3-F604-4D0F-91ED-ACE7690F56EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030F69DD-03EF-4EFE-855F-93C32DEDF83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030F69DD-03EF-4EFE-855F-93C32DEDF83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030F69DD-03EF-4EFE-855F-93C32DEDF83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030F69DD-03EF-4EFE-855F-93C32DEDF83B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC0C3798-6EDA-4450-9AC1-3593F618A312}
+	EndGlobalSection
+EndGlobal

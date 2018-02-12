@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>yozepi.Roku</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>0.2.0</Version>
+    <Authors>yozepi</Authors>
+    <Company />
+    <Description>Classes for discovering and controlling roku devices on your local network.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rssdp" Version="3.5.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="NETStandard.Library" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
